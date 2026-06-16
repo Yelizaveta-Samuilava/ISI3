@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Liza_Student">
+      <firstName>Liza</firstName>
+      <lastName>Samuilava</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">liza</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Amina_Student">
+      <firstName>Amina</firstName>
+      <lastName>Zouane</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">amina</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Daniel_Professor">
+      <firstName>Daniel</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">daniel</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Student">
+      <displayName>Student</displayName>
+    </role>
+    <role name="Professor">
+      <displayName>Professor</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="UFR">
+      <displayName>UFR</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Liza_Student</userName>
+      <roleName>Student</roleName>
+      <groupName>UFR</groupName>
+    </membership>
+    <membership>
+      <userName>Amina_Student</userName>
+      <roleName>Student</roleName>
+      <groupName>UFR</groupName>
+    </membership>
+    <membership>
+      <userName>Daniel_Professor</userName>
+      <roleName>Professor</roleName>
+      <groupName>UFR</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
